@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name">
+        <item>Drake</item>
+        <item>Tom Cruise</item>
+        <item>Vin Diesel</item>
+        <item>Kendrick Lamar</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Aubrey Drake Graham (born October 24, 1986) is a Canadian rapper, singer, songwriter, record producer,
+            actor, and entrepreneur. Drake initially gained recognition as an actor on the teen drama television series
+            Degrassi: The Next Generation in the early 2000s. Intent on pursuing a career as a rapper, he departed the
+            series in 2007 following the release of his debut mixtape, Room for Improvement. He released two further
+            independent projects, Comeback Season and So Far Gone, before signing to Lil Wayne\s Young Money Entertainment in June 2009</item>
+
+        <item>Thomas Cruise Mapother IV (born July 3, 1962) is an American actor and producer. He started his career at age 19 in the film Endless
+            Love (1981), before making his breakthrough in the comedy Risky Business (1983) and receiving widespread attention for starring in the
+            action drama Top Gun (1986) as Lieutenant Pete "Maverick" Mitchell. After starring in The Color of Money (1986) and Cocktail (1988),
+            Cruise starred opposite Dustin Hoffman in the Academy Award for Best Picture-winning drama Rain Man. For his role as anti-war activist
+            Ron Kovic in the drama Born on the Fourth of July (1989), Cruise received the Golden Globe Award for Best Actor – Motion Picture Drama and
+            his first Academy Award for Best Actor nomination. </item>
+
+        <item>Mark Sinclair (born July 18, 1967), better known by his stage name Vin Diesel, is an American actor, producer, director and screenwriter.
+            He is well known for his portrayals of Dominic Toretto in The Fast and the Furious film series, Richard B. Riddick in The Chronicles of
+            Riddick series and Xander Cage in the xXx series. He is also a producer on sequels in these franchises, with his company One Race Films. </item>
+
+        <item>Raised in Compton, California, Lamar embarked on his musical career as a teenager under the stage name K-Dot, releasing a mixtape that garnered
+            local attention and led to his signing with indie record label Top Dawg Entertainment (TDE). He began to gain recognition in 2010, after his first
+            retail release, Overly Dedicated. The following year, he independently released his first studio album, Section.80, which included his debut single,
+            "HiiiPoWeR". </item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Musician</item>
+        <item>Movie Star</item>
+        <item>Movie Star</item>
+        <item>Musician</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>32</item>
+        <item>56</item>
+        <item>51</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="image">
+        <item>drake</item>
+        <item>tom_cruise</item>
+        <item>vin_diesel</item>
+        <item>kendrick_lamar</item>
+    </string-array>
+</resources>
