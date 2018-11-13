@@ -49,8 +49,11 @@ class ListFragment : Fragment() {
         lvCelebrities.setOnItemClickListener{ parent, view, position, id ->
 
             val manager = fragmentManager
-            val celebrityDetailFragment = CelebrityDetailFragment.newInstance(celebrityList.get(position).name, celebrityList.get(position).description,
-                celebrityList.get(position).age, celebrityList.get(position).celebrityType, celebrityList.get(position).image)
+           /* val celebrityDetailFragment = CelebrityDetailFragment.newInstance(celebrityList.get(position).name, celebrityList.get(position).description,
+                celebrityList.get(position).age, celebrityList.get(position).celebrityType, celebrityList.get(position).image)*/
+
+            val celebrityDetailFragment = CelebrityDetailFragment.newInstance(Celebrity(celebrityList.get(position).name, celebrityList.get(position).age,
+                celebrityList.get(position).description, celebrityList.get(position).celebrityType, celebrityList.get(position).image))
             manager!!.beginTransaction().replace(R.id.flDetails, celebrityDetailFragment, "detailFragment").commit()
         }
     }
